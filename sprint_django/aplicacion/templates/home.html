@@ -1,0 +1,17 @@
+{% extends 'base_layout.html' %} {% load static %} {% block content %}
+<br />
+<div class="w3-container">
+  <h1>Bienvenido {{user.username}}</h1>
+<br>
+  <img src="{% static 'descarga.png' %}" alt="My image" width="500" />
+  <img src="{% static 'bodega.png' %}" alt="My image" width="500" />
+  <br>
+  <br>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quisquam ab
+    nostrum quis non dicta tempore, perferendis corporis. Quidem officia debitis
+    autem odit similique mollitia nemo voluptate possimus rem repellat.
+  </p>
+</div>
+
+{% endblock %}
